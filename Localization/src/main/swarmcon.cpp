@@ -11,20 +11,23 @@
 #include <SDL/SDL.h>
 #include "CMessageClient.h"
 #include "CPositionServer.h"
+// #include "../../cpr/"
 
 //-----These parameters need to be adjusted by the user -----------------------
 
 //Adjust camera resolution here
-int  imageWidth= 960;
-int  imageHeight = 720;
+int  imageWidth= 1280;
+int  imageHeight = 1024;
 
 //Adjust the black circle diameter [m] 
 float circleDiameter = 0.03;
 
 /*Adjust the X and Y dimensions of the coordinate system 
 in case you are using the artificial pheromone system, adjust the dimensions in phero.cpp*/
-float fieldLength = 1.00;
-float fieldWidth = 1.00;
+// float fieldLength = 1.00;
+// float fieldWidth = 1.00;
+float fieldLength = 0.26;
+float fieldWidth = 0.16;
 //----------------------------------------------------------------------------
 
 /*-----These params are provided by the artificial pheromone system ----------------------
