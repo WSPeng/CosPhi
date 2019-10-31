@@ -18,6 +18,8 @@
 //Adjust camera resolution here
 int  imageWidth= 1280;
 int  imageHeight = 1024;
+// int  imageWidth= 600;
+// int  imageHeight = 400;
 
 //Adjust the black circle diameter [m] 
 float circleDiameter = 0.03;
@@ -26,8 +28,11 @@ float circleDiameter = 0.03;
 in case you are using the artificial pheromone system, adjust the dimensions in phero.cpp*/
 // float fieldLength = 1.00;
 // float fieldWidth = 1.00;
-float fieldLength = 0.26;
-float fieldWidth = 0.16;
+// float fieldLength = 0.26;
+// float fieldWidth = 0.16;
+float fieldLength = 1.15;
+float fieldWidth = 1.15;
+
 //----------------------------------------------------------------------------
 
 /*-----These params are provided by the artificial pheromone system ----------------------
